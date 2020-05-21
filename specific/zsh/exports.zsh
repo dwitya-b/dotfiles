@@ -9,8 +9,8 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Go {{{
 #
-GOROOT=/usr/local/bin
-GOPATH=$HOME/go
+# GOROOT=/usr/local/bin
+# GOPATH=$HOME/go
 
 export PATH=$GOPATH/bin:$PATH
 #
@@ -18,7 +18,7 @@ export PATH=$GOPATH/bin:$PATH
 
 # Erlang/Elixir {{{
 #
-. ~/kerl/20.3/activate
+# . ~/kerl/20.3/activate
 #
 # }}}
 
@@ -30,9 +30,9 @@ export PATH="/usr/local/opt/elasticsearch@2.4/bin:$PATH"
 
 # MySQL {{{
 #
-export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/mysql@5.6/lib"
-export CPPFLAGS="-I/usr/local/opt/mysql@5.6/include"
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/mysql@5.7/lib"
+export CPPFLAGS="-I/usr/local/opt/mysql@5.7/include"
 #
 # }}}
 

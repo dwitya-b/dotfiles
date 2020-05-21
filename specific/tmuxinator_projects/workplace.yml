@@ -1,0 +1,39 @@
+# ~/dotfiles/specific/tmuxinator_projects/workplace.yml
+name: workplace
+root: ~/
+
+# Project hooks
+on_project_first_start:
+#   - brew services run mysql@5.7
+
+windows:
+  - services:
+      layout: tiled
+      panes:
+        - Docker:
+            - set_pane_title Docker
+            - bl_dock
+        - Mothership:
+            - set_pane_title Mothership
+            - bl_mothership
+        - Aleppo:
+            - set_pane_title Aleppo
+            - bl_aleppo
+        - Workplace:
+            - set_pane_title Workplace
+            - bl_workplace
+        - Workplace:
+            - set_pane_title Workplace
+            - bl_workplace
+        - Workplace:
+            - set_pane_title Workplace
+            - bl_workplace
+        - Westeros:
+            - set_pane_title Westeros
+            - bl_westeros
+        - Hahen:
+            - set_pane_title Hahen
+            - bl_hahen
+        - Workplace:
+            - set_pane_title Workplace
+            - bl_workplace
